@@ -1,0 +1,76 @@
+.NavBar {
+    background-color: rgba(43, 38, 38, 0);
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Nav-one {
+    display: flex;
+    color: red;
+    align-items: baseline;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 3rem;
+}
+
+
+
+.Nav-button {
+    color: white;
+    font-size: 2rem;
+    margin-left: 3em;
+    cursor: pointer
+}
+
+.Nav-button:hover {
+    transform: scale(1.1);
+}
+
+.Nav-two {
+    display: flex;
+    justify-content: baseline;
+    color: white;
+    cursor: pointer;
+
+}
+
+.SearchIcon {
+    position: absolute;
+    right: 300px;
+    margin-top: 60px;
+    font-size: x-large;
+}
+
+.SearchIcon:hover {
+    transform: scale(1.1);
+}
+
+
+.Bell {
+    position: absolute;
+    right: 220px;
+    margin-top: 60px;
+    font-size: x-large;
+
+}
+
+.Bell:hover {
+    transform: scale(1.1);
+}
+
+.img-cat {
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+.img-cat:hover {
+    transform: scale(1.1);
+}
